@@ -1,0 +1,47 @@
+# Plugin develloped by GFelberg 
+# Config.yml	
+
+# language: en
+# Thanks for downloading my plugin. For more plugins, dont forget to look my updates!
+# If you find any bugs or ideas to the plugin, pm me at spigot.
+
+# language: br/pt
+# Obrigado por baixar meu plugin. Para mais plugins, não esqueça de olhar as atualizações!
+# Se você encontrar algum problema ou ter alguma ideia para o plugin, pm no spigot.
+
+# Permissions
+
+# light.light : Access to the Light Command
+# light.admin : Access to the Admin Help Page
+# light.reload : Access to Reload the Plugin
+
+# Languages
+
+# If your language can be written using the Latin Alphabet, leave the default as 'en-US'.
+# If your language cannot be written using the Latin Alphabet, choose your language from the available ones.
+# If your language is not available, send me in the discussion thread or pm at spigot with the following values: "Prefix", "Enabled" and "Disabled"
+
+# Languages List (Take a look at the Light Plugin - Overview Page - for the messages from another languages):
+
+# en-US = Default Language
+# zh-CN = Chinese
+
+Language: 'en-US'
+
+# Configuration 1.0
+# This configuration will display the Light Messages
+
+# This area can be only used if your Language Option is 'en-US'!
+
+Light:
+  Prefix: '&b[&eLight&b]&r'
+  Enabled: '&eLight has been enabled!'
+  Disabled: '&eLight has been disabled!'
+  
+# Configuration 1.1
+# This configuration will display the Help Page Messages
+
+Help:
+  Page: '&eShows this page'
+  Light: '&eTurns on and turns off the night vision'
+  Reload: '&eReloads the Plugin'

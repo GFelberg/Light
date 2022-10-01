@@ -1,0 +1,9 @@
+name: Light
+version: 1.0
+author: GFelberg
+api-version: 1.13
+main: me.GFelberg.Light.Main
+commands:
+  light:
+    usage: /<command>
+    aliases: [luz]
