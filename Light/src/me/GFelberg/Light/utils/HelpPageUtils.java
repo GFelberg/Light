@@ -5,14 +5,14 @@ import me.GFelberg.Light.Main;
 public class HelpPageUtils {
 
 	public String getHelp_page() {
-		return Main.getInstance().getConfig().getString("Help.Page").replace("&", "ง");
+		return Main.getInstance().getConfig().getString("Help.Page").replace("&", "ยง");
 	}
 
 	public String getHelp_light() {
-		return Main.getInstance().getConfig().getString("Help.Light").replace("&", "ง");
+		return Main.getInstance().getConfig().getString("Help.Light").replace("&", "ยง");
 	}
 
 	public String getHelp_reload() {
-		return Main.getInstance().getConfig().getString("Help.Reload").replace("&", "ง");
+		return Main.getInstance().getConfig().getString("Help.Reload").replace("&", "ยง");
 	}
 }

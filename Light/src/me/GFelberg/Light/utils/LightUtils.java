@@ -27,9 +27,9 @@ public class LightUtils {
 			Main.getInstance().reloadConfig();
 			loadVariables();
 			loadLanguage(p);
-			Bukkit.getServer().getConsoleSender().sendMessage("=======================================");
-			Bukkit.getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "Light Plugin reloaded");
-			Bukkit.getServer().getConsoleSender().sendMessage("=======================================");
+			Bukkit.getConsoleSender().sendMessage("=======================================");
+			Bukkit.getConsoleSender().sendMessage(ChatColor.GREEN + "Light Plugin reloaded");
+			Bukkit.getConsoleSender().sendMessage("=======================================");
 		}
 	}
 
