@@ -4,6 +4,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import me.GFelberg.Light.commands.Light;
+import me.GFelberg.Light.data.LightSystem;
 import me.GFelberg.Light.utils.LightUtils;
 
 public class Main extends JavaPlugin {
@@ -13,7 +14,7 @@ public class Main extends JavaPlugin {
 	public void onEnable() {
 		instance = this;
 		saveDefaultConfig();
-		LightUtils.loadVariables();
+		loadVariables();
 		getCommand("light").setExecutor(new Light());
 		Bukkit.getConsoleSender().sendMessage("----------------------------");
 		Bukkit.getConsoleSender().sendMessage("Light Plugin Enabled");
@@ -30,5 +31,10 @@ public class Main extends JavaPlugin {
 		Bukkit.getConsoleSender().sendMessage("Light Plugin Disabled");
 		Bukkit.getConsoleSender().sendMessage("Plugin developed by GFelberg");
 		Bukkit.getConsoleSender().sendMessage("----------------------------");
+	}
+	
+	public void loadVariables() {
+		LightUtils.loadVariables();
+		LightSystem.loadVariables();
 	}
 }

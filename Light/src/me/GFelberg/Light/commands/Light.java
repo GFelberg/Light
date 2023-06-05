@@ -6,6 +6,7 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+import me.GFelberg.Light.data.LightSystem;
 import me.GFelberg.Light.utils.LightUtils;
 
 public class Light implements CommandExecutor {
@@ -27,9 +28,10 @@ public class Light implements CommandExecutor {
 
 			Player p = (Player) sender;
 			LightUtils utils = new LightUtils();
+			LightSystem sys = new LightSystem();
 
 			if (args.length == 0) {
-				utils.light(p);
+				sys.light(p);
 				return true;
 			}
 
