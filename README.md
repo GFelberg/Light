@@ -1,41 +1,70 @@
-# Light 💡
-### **Portuguese:**
-O plugin Light possui a habilidade de ativar a visão noturna com um simples comando
+# Light 💡 (1.8x - 1.20x)
 
-Para os jogadores voltados para a língua portuguesa, foi implementado como alternativa do comando de ser executado por /luz.
+## English: :earth_americas:
+Light is a plugin made for Minecraft which has the ability to enable the night vision with a simple command.
 
-### **English:**
-The Light plugin has the ability to enable the night vision with a simple command.
-
-#### Commands:
-    /light - Enable or Disable the Night Vision
+### Commands:
     /light help - Shows the Help Page
+    /light - Enable or Disable the Night Vision
     /light reload - Reloads the Plugin
     
     For players oriented to the Portuguese language, the command has the implementation of being executed by /luz
-  
-#### Permissions:
+
+### Permissions:
     light.light : Access to the Light Command
     light.admin : Access to the Admin Help Page
     light.reload : Access to Reload the Plugin
 
-#### Plugin Messages 📝:
-    If your language can be written using the Latin Alphabet, leave the default as 'en-US'.
-    
-    If your language cannot be written using the Latin Alphabet, choose your language from the available ones.
-    
-    If your language is not available, send me the texts for the following values: "Prefix", "Enabled" and "Disabled"
+### How the Plugin works?
+    It's simple. Use the "/light" to enable or disable the night vision.
 
-#### Languages List 📒:
+### Plugin Messages 📝:
+    If your language can be written using the Latin Alphabet, leave the 
+    default as 'en-US'.
+    
+    If your language cannot be written using the Latin Alphabet, choose your 
+    language from the available ones.
+    
+    If your language is not available, send me the texts for the 
+    following values: "Prefix", "Enabled" and "Disabled"
+
+### Languages List 📒:
     en-US = Default Language
     zh-CN = Chinese
 
-#### Available in the following versions ⚙️:
-  - 1.8x - 1.19x
- 
-#### Alternative Hosting 🏠:
-  - Spigot: https://www.spigotmc.org/resources/light.104977/
+### Available for download at Spigot: https://www.spigotmc.org/resources/light.104977/
 
-![image](https://user-images.githubusercontent.com/41524430/193423138-ab427f2a-8b89-4c4b-a29a-72ed2e552b8d.png)
+### Images:
 
-![image](https://user-images.githubusercontent.com/41524430/193423141-60edaf17-79ff-4502-8c2b-71a42c4e186d.png)
+![1](https://github.com/GFelberg/Light/assets/41524430/ddc30e0d-7f2a-45b6-90de-813812feea4b)
+
+![2](https://github.com/GFelberg/Light/assets/41524430/49c566cf-c7b9-4406-a70f-b3f4997f5546)
+
+## Portuguese: <img src="https://github.com/GFelberg/Light/assets/41524430/e09c0bb2-c73e-4dea-8b78-7f89523908e9" width="30" height="30">
+Light é um plugin desenvolvido para o Minecraft que possui a habilidade de ativar a visão noturna com um simples comando.
+
+### Comandos:
+    /light help - Mostrar a Página de Ajuda
+    /light - Ativar ou Desativar a Visão Noturna
+    /light reload - Reloads the Plugin
+    
+    Para os jogadores da língua portuguesa, o comando "/luz" foi implementado como opção de uso
+
+### Permissões:
+    light.light : Acesso ao comando Light
+    light.admin : Acesso para a Página de Ajuda dos Administradores
+    light.reload : Acesso para Recarregar o Plugin
+
+### Como o Plugin funciona?
+    É simples. Use o "/light" para ativar ou desativar a visão noturna.
+
+### Mensagens do Plugin 📝:
+    Para acesso da língua portuguesa, deixe o padrão 'en-US' para suporte ao alfabeto latino
+
+### Disponível para download no Spigot: https://www.spigotmc.org/resources/light.104977/
+
+### Imagens:
+
+![1](https://github.com/GFelberg/Light/assets/41524430/ddc30e0d-7f2a-45b6-90de-813812feea4b)
+
+![2](https://github.com/GFelberg/Light/assets/41524430/49c566cf-c7b9-4406-a70f-b3f4997f5546)
