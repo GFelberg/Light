@@ -3,6 +3,8 @@
 ## English: :earth_americas:
 Light is a plugin made for Minecraft which has the ability to enable the night vision with a simple command.
 
+![Vídeo GIF](https://github.com/GFelberg/Light/assets/41524430/02b3d1bb-6fa7-43fe-ab8f-0702908d5a8a)
+
 ### Commands:
     /light help - Shows the Help Page
     /light - Enable or Disable the Night Vision
@@ -42,6 +44,8 @@ Light is a plugin made for Minecraft which has the ability to enable the night v
 
 ## Portuguese: <img src="https://github.com/GFelberg/Light/assets/41524430/e09c0bb2-c73e-4dea-8b78-7f89523908e9" width="30" height="30">
 Light é um plugin desenvolvido para o Minecraft que possui a habilidade de ativar a visão noturna com um simples comando.
+
+![Vídeo GIF](https://github.com/GFelberg/Light/assets/41524430/b7072d71-633f-4596-84f8-fe0f47865595)
 
 ### Comandos:
     /light help - Mostrar a Página de Ajuda
